@@ -1,0 +1,47 @@
+title: Hello
+
+theme: 'home'
+
+titleCaseStyle: none
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      hardWraps: true
+    parser:
+      autoHeadingIDType: github-ascii
+disableKinds:
+- taxonomy
+
+params:
+  timelineSources: []
+  sourcePrefix: https://github.com/rosano/home/edit/master
+  mediaPrefix: false
+  showGazette: false
+  logoURL: false
+  showTemporary: false
+  showTypes: false
+  lowerLyricTitles: false
+
+taxonomies:
+  category: categories
+  tag: tags
+  place: place
+  country: country
+  series: series
+  browse_year: browse_year
+  browse_month: browse_month
+  browse_day: browse_day
+  collection: collection
+  topic: topic
+
+permalinks:
+  term:
+    collection: /lyrics/:slug/
+    topic: /lyrics/topic/:slug/
+
+ignoreFiles:
+  - themes/home/content/blog/.*
+  - themes/home/content/vibrations/.*
+  - themes/home/content-sources/lyrics/.*
+  - themes/home/content-sources/journal/.*
