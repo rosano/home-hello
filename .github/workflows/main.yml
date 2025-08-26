@@ -16,8 +16,10 @@ jobs:
         with:
           hugo-version: '0.148.2'
           extended: true
-      - name: Theme
+      - name: Home
         run: git submodule add -f https://github.com/rosano/home.git themes/home
+      - name: Unconfig
+        run: git submodule add -f https://github.com/rosano/home-unconfig.git themes/home-unconfig
       - name: Build
         run: hugo
       - uses: actions/configure-pages@v2
