@@ -43,5 +43,6 @@ permalinks:
 ignoreFiles:
   - themes/home/content/blog/.*
   - themes/home/content/vibrations/.*
+  - themes/home/content/timeline/.*
   - themes/home/content-sources/lyrics/.*
   - themes/home/content-sources/journal/.*
