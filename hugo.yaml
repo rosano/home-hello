@@ -15,7 +15,7 @@ disableKinds:
 
 params:
   timelineSources: []
-  sourcePrefix: https://github.com/rosano/home/edit/master
+  sourcePrefix: https://github.com/rosano/hugo-hello/edit/master
   mediaPrefix: false
   showGazette: false
   logoURL: false
