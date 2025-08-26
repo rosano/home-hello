@@ -17,7 +17,7 @@ jobs:
           hugo-version: '0.148.2'
           extended: true
       - name: Theme
-        run: git submodule add https://github.com/rosano/home.git themes/home
+        run: git submodule add https://github.com/rosano/home.git themes/home -f
       - name: Build
         run: hugo
       - uses: actions/configure-pages@v2
