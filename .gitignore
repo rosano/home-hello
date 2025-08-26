@@ -11,3 +11,7 @@ resources
 # LOCAL
 .env*
 !.env-sample
+
+# DEPLOY
+.gitmodules
+themes/home*
