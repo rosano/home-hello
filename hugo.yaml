@@ -1,6 +1,8 @@
 title: Hello
 
-theme: 'home'
+theme:
+  - home-unconfig
+  - home
 
 titleCaseStyle: none
 markup:
@@ -12,16 +14,6 @@ markup:
       autoHeadingIDType: github-ascii
 disableKinds:
 - taxonomy
-
-params:
-  timelineSources: []
-  sourcePrefix: https://github.com/rosano/hugo-hello/edit/master
-  mediaPrefix: false
-  showGazette: false
-  logoURL: false
-  showTemporary: false
-  showTypes: false
-  lowerLyricTitles: false
 
 taxonomies:
   category: categories
