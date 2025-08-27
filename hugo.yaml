@@ -5,7 +5,3 @@ theme:
   - home
 
 _merge: deep
-
-params:
-  timelineSources:
-    - content/posts
