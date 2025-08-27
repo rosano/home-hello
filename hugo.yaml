@@ -4,37 +4,8 @@ theme:
   - home-unconfig
   - home
 
-titleCaseStyle: none
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-      hardWraps: true
-    parser:
-      autoHeadingIDType: github-ascii
-disableKinds:
-- taxonomy
+_merge: deep
 
-taxonomies:
-  category: categories
-  tag: tags
-  place: place
-  country: country
-  series: series
-  browse_year: browse_year
-  browse_month: browse_month
-  browse_day: browse_day
-  collection: collection
-  topic: topic
-
-permalinks:
-  term:
-    collection: /lyrics/:slug/
-    topic: /lyrics/topic/:slug/
-
-ignoreFiles:
-  - themes/home/content/blog/.*
-  - themes/home/content/vibrations/.*
-  - themes/home/content/timeline/.*
-  - themes/home/content-sources/lyrics/.*
-  - themes/home/content-sources/journal/.*
+params:
+  timelineSources:
+    - content/posts
